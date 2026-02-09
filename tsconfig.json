@@ -1,3 +1,18 @@
-The AT command has been deprecated. Please use schtasks.exe instead.
-
-The request is not supported.
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["tests/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
