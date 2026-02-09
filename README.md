@@ -21,7 +21,7 @@ GET/hotelesListar todos los hoteles
 GET/hoteles/:idObtener un hotel por ID
 POST/hotelesCrear un hotel
 
-Export as CSV
+
 Habitaciones
 MétodoRutaDescripción
 GET/habitacionesListar todas las habitaciones
@@ -29,14 +29,14 @@ GET/habitaciones/:idObtener una habitación por ID
 GET/hoteles/:id/habitacionesListar habitaciones de un hotel
 POST/habitacionesCrear una habitación
 
-Export as CSV
+
 Huéspedes
 MétodoRutaDescripción
 GET/huespedesListar todos los huéspedes
 GET/huespedes/:idObtener un huésped por ID
 POST/huespedesCrear un huésped
 
-Export as CSV
+
 Reservas
 MétodoRutaDescripción
 GET/reservasListar todas las reservas
@@ -44,8 +44,7 @@ GET/reservas/:idObtener una reserva por ID
 POST/reservasCrear una reserva
 PUT/reservas/:id/cancelarCancelar una reserva
 
-Export as CSV
-4. Estructura de datos esperada
+E4. Estructura de datos esperada
 Hotel
 json
 
